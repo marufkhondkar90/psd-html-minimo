@@ -1,0 +1,358 @@
+/*common css start*/
+body{
+    
+    margin: 0;
+    font-family: "Playfair", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#626262; 
+}
+/*common css endt*/
+
+/*header srart*/
+header{
+    padding: 30px 0;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+.logo{
+    margin-top: 10px;
+    float: left;
+    width: 13%;
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+    width: 100%;
+    float: left;
+}
+.menu{
+    float: right;
+    width: 65%;
+}
+.menu ul {
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    color: #626262;;
+    text-decoration: none;
+    text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+
+/* header end*/
+
+
+
+/*banner start*/
+.banner{}
+.container{}
+
+.b_img img{
+    width: 100%;
+}
+
+/*banner end*/
+
+
+/*perfect start*/
+
+.perfect{
+    padding: 100px 0 90px;
+}  
+.container2{
+    margin: 0 auto;
+    width: 80%;
+    
+
+}
+.p_content{}
+.c_light{
+    font-family: "Ubuntu" sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+
+}
+.c_titial{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.c_p{
+     font-family: "Playfair", serif;
+     font-size: 16px;
+     font-weight: 400px;
+     line-height: 24px;
+}
+
+
+/*perfect end*/
+
+
+
+
+
+/*blog start*/
+ .blog{
+
+ }
+ .blog-content{
+    overflow: hidden;
+ }
+ .single{
+   width: 47%;
+   float: left;
+   margin-right: 60px;
+   margin-bottom: 90px;
+ }
+.s-img{
+   margin-bottom: 15px;  
+}
+.s-img img{
+   width: 100%;
+}
+.single:nth-child(even) {
+   margin-right: 0;
+}
+
+.c-light{
+    text-transform: uppercase;
+}
+/* blog end */
+
+
+
+
+
+/*--news start--*/
+
+.news{
+    background-color:#f0f0f0;
+    
+    padding: 70px 70;
+}
+.signup{ 
+     text-align:center;
+      }
+
+.s-from{
+    position: relative;
+    width: 400px;
+    margin: 45px auto;
+    padding: 20px 0px;
+
+}
+
+
+}
+.c-title{
+     margin-top: 0;
+     margin-bottom: 70px;
+}
+.s-from input{
+      font-family: "Playfair Display", serif;
+
+      font-size: 14px;
+      color:#626262;
+      width: 400px;
+      height: 45px;
+      border: none;
+      background: transparent;
+      padding-left:50px ;
+      padding-right: 45px;
+      border-bottom: 1px solid #000000;
+
+}
+.s-from input:focus{
+    outline: 0px;
+}
+.s-from button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    top: 35px;
+    right:0px ;
+    overflow: hidden;
+}
+
+.s-from button:focus{
+    outline: 0px;
+    cursor: pointer;
+
+}
+.s-from button img{
+    
+}
+/*--news end--*/
+
+
+
+
+
+
+
+
+/* abr blog start*/
+ .blog{
+
+ }
+
+ .container3{
+    margin: 0 auto;
+    width: 80%;
+ }
+
+ .blog-content{
+    overflow: hidden;
+ }
+ .single{
+   width: 47%;
+   float: left;
+   margin-right: 60px;
+   margin-bottom: 90px;
+ }
+.s-img{
+   margin-bottom: 15px;  
+}
+.s-img img{
+   width: 100%;
+}
+.single:nth-child(even) {
+   margin-right: 0;
+}
+
+.c-light{
+    text-transform: uppercase;
+}
+/* abr blog end */
+
+
+/*lode more sart*/
+
+
+
+.load{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.container3 button{
+    padding: 35px 65px;
+    font-family: "Playfair", serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #626262;
+    background: transparent;
+    border: none;
+    border: 1px solid #626262;
+    
+}
+
+
+.container3 button:hover{
+    color: white;
+    background-color: #626262;
+    border: 1px solid white;
+
+
+}
+
+
+/*lode more send*/
+
+
+
+
+
+/*footer start*/
+footer{
+    background-color: ;
+    height: 100px;
+    margin-top: 40px;
+    
+}
+
+
+.f_menu{
+    width: 30%;
+    float: left;
+    margin-top: 23px;
+    /*border: 1px solid;*/
+}
+.f_menu ul{
+    float: left;
+    padding: 0;
+}
+.f_menu ul li{
+    float: left;
+    list-style: none;
+}
+.f_menu ul li a{
+
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    margin-right: 30px;
+    border-bottom: 1px solid transparent;
+
+
+}
+.footer_menu ul li a:hover{
+    border-bottom: 1px solid #000000;
+}
+.footer_menu ul li:last-child a{
+    margin-right: 0;
+}
+
+
+
+
+
+
+.icons{
+    width: 20%;
+    float: right;
+    margin-top: 24px;
+    
+}
+.icons ul{
+    float: right;
+}
+.icons ul li{
+    color: #000000;
+    list-style: none;
+    float: left;
+}
+.icons ul li a{
+    width: 20%;
+    color: #626262;
+    display: inline-block;
+    float: left;
+    margin: 0 15px;
+}
+.icons ul li a:hover{
+    color: #000000;
+}
+.icons ul li:last-child a{
+    margin-right: 0;
+}
+/*footer end*/
